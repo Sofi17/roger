@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+body{
+	background:url('  3.jpg ');
+	background-size: cover; 
+	background-attachment: fixed;
+	background-position: center;
+	
+}
+section{
+	display: block;
+}
+.container {
+	margin: 5% 5%;
+    background: rgba(215, 145, 243, 0.82);
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 80px;
+}
+
+.container h1 {
+	font-family: Shell Roundhand, cursive;
+    text-align: center;
+    font-size: 30pt;
+    background: linear-gradient(135deg, #ff0332 26%, #fff057 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container h2 {
+	font-family: Shell Roundhand, cursive;
+    text-align: center;
+    font-size: 22pt;
+    background: linear-gradient(135deg, #f1f500 31%, #00fff0 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+	text-indent: 1em;
+    padding: 5px;
+}
+.wrapper{
+	margin: 0 auto;
+	display: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.otvet{
+	background: #07fd05b5;
+    color: #9f00ff;
+	padding: 7px 12px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+
+}
+.otvet:hover{
+	background: yellow;
+}
+.btn-flat{
+	border: 1px transparent;
+}
+.btn-round{
+	border-radius: 20px;
+}
+#r{
+	background-color: #ffdc6375;
+    color: #2700ef;
+    padding: 10px;
+    font-size: 18px;
+}
+li{
+	list-style: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 1em;
+    padding: 5px;
+}
+li::before{
+	content: '\25ba';
+	padding-right: 5px;
+	color: red;
+}
+.column {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+	text-indent: 1em;
+	margin-top: 15px;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-columns: 200px 2;
+    -moz-columns: 200px 2;
+    columns: 200px 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+   }
+
+  #string{
+  	background-color: #434646ab;
+    color: #f96207;
+    padding: 10px;
+    border-left: 5px solid #f96207;
+  }
+ .thumb {
+    display: inline-block;
+    border: 1px solid #ccc; /* Параметры рамки */
+    padding: 20px; /* Поля вокруг картинки */
+    margin-right: 30px; /* Отступ справа */
+    box-shadow: 0 0 5px #ccc; /* Добавляем тень  */
+    transition: 0.6s ease-out; /* Переход */
+   }
+   .thumb:hover {
+    transform: rotate(-15deg); /* Поворачиваем картинку */
+    border: 1px solid green; /* Меняем цвет рамки */
+   }
+   .feedback {
+   	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+    border-radius: 0 10px 10px 0; /*  Скругляем уголки */
+    width: 300px; /* Ширина */
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+    min-height: 100px; /* Минимальная высота */
+    top: 100px; left: -320px; /* Положение */
+    border-right: 20px solid #fc0; /* Оранжевая граница справа */
+    padding: 10px; /* Поля вокруг */
+    transition: left 1s ease-out; /* Анимация */
+   }
+  
+   .feedback::after {
+    content: 'Полезные ссылки'; /* Выводим текст */
+    color: #000; /* Цвет надписи */
+    position: absolute; /* Абсолютное позиционирование */
+    right: -75px; bottom: 65px;/* Положение текста */
+    transform: rotate(-90deg); /* Поворачиваем текст */
+   }
+   .feedback:hover {
+    left: 0; /* При наведении сдвигаем вправо */
+   }
